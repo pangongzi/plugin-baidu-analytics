@@ -1,0 +1,25 @@
+{
+  "name": "baidu-analytics",
+  "version": "1.0.0",
+  "description": "百度统计 Vue 插件，支持 Vite + Vue",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "baidu",
+    "analytics",
+    "vite",
+    "vite",
+    "typescript"
+  ],
+  "author": "pangongzi",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  }
+}

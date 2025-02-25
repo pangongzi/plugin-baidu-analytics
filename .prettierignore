@@ -1,0 +1,11 @@
+/dist/*
+/public/*
+.local
+/node_modules/**
+
+**/*.svg
+**/*.sh
+
+
+stats.html
+visualizer.html

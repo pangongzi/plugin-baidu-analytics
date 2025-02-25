@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // 支持现代浏览器
+    "module": "esnext", // 使用 ES 模块
+    "moduleResolution": "node",
+    "strict": true, // 启用严格模式
+    "esModuleInterop": true, // 支持默认导入
+    "skipLibCheck": true, // 跳过库文件类型检查
+    "outDir": "./dist", // 输出目录
+    "declaration": true, // 生成类型声明文件
+    // "declarationMap": true, // 生成声明文件的映射文件
+    // "sourceMap": true, // 生成源映射文件
+    "lib": [
+      "dom",
+      "esnext"
+    ], // 使用的标准库
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
