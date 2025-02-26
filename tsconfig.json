@@ -8,8 +8,6 @@
     "skipLibCheck": true, // 跳过库文件类型检查
     "outDir": "./dist", // 输出目录
     "declaration": true, // 生成类型声明文件
-    // "declarationMap": true, // 生成声明文件的映射文件
-    // "sourceMap": true, // 生成源映射文件
     "lib": [
       "dom",
       "esnext"
